@@ -5,7 +5,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: white;
+    
 }
 
 .container{
@@ -14,6 +14,7 @@
 }
 
 header{
+    color: white;
     height: 10vh;
     background-color: #0F0F0F;
 
@@ -56,7 +57,12 @@ main{
     justify-content: center;
     align-items: center;
 }
-
+.centerToCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .ramka{
     width: 320px;
     height: 320px;
@@ -67,3 +73,190 @@ main{
 main>p{
     width: 720px;
 }
+.ramka img{
+    border-bottom: 4px solid #fff;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.ramka p{
+    font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.season{
+    background-color: black;
+    color: #fff;
+}
+.top, .bottom{
+    height: 80vh;
+    display: flex;
+}
+
+.top .left {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+
+}
+.top .right{
+    width: 45%;
+    display: flex;
+    background-image: url(./img/Rectangle\ 8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.top .right hr{
+margin: 30px 0;
+}
+
+.clocks{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.clock div{
+    background: #191B1C;
+    padding: 55px 22px;
+    
+}
+.bottom{
+    height: 70vh;
+    display: flex;
+}
+
+.bottom .left{
+    background-image: url(./img/Rectangle\ 9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 45%;
+}
+.bottom .right{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom .right p{
+    width: 470px;
+    text-align: center;
+    font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+}
+.bottom .right hr{
+    margin: 40px 0;
+}
+.bottom .right button{
+    margin-top: 70px;
+}
+
+.new{
+    background-color: #000;
+    height: 120vh;
+    color: #fff;
+
+}
+.new .container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.brands{
+    background-color:#0F0F0F;
+    ;
+    color: #fff;
+    height: 50vh;
+}
+.brands .container .clocks .clock div{
+    background: none;
+    padding: 0px;
+}
+.brands .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.brands .container h1{
+    margin: 40px;
+
+}
+
+.brands .container hr{
+    margin-bottom: 40px;
+}
+.footer{
+    background-image: url(./img/Rectangle\ 15end.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    color: #fff;
+    display: flex;
+}
+
+.footer__one{
+    
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+    
+}
+.footer__one div, .footer__two div {
+    background-color: rgba(0, 0, 0, 0.603);
+    padding: 10px;
+}
+.footer__two{
+    display: flex;
+    justify-content: space-evenly;
+}
+.clock1{
+    width: 33%;
+}
+
+.clock1 h1{
+    margin: 30px 0;
+}
+
+.input{
+    background-color: rgba(31, 29, 29, 0.438);
+    height: 40px;
+    width: 200px;
+}
+.clock1 a{
+    background-color: yellowgreen;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+}
+.input__p{
+    margin: 20px 0;
+}
+
+
+
+
+
+
+
